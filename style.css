@@ -1,0 +1,65 @@
+body{
+    background-image: url(images/pajjalogo.jpg);
+    background-size: cover;
+    font-family: "Lato", sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.nav-wrapper{
+    display: grid;
+    padding:30px;
+}
+.top{
+    display: flex;
+}
+.nav-wrapper > .top >div{
+    font-family: sans-serif;
+    margin-right: 100px;
+    text-transform: uppercase;
+    position: relative;
+    left: 400px;
+    top: 13px;
+    font-weight: 700;
+}
+.nav-link-wrapper{
+    height: 18px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.nav-link-wrapper a{
+    color: #296d98;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid white;
+}
+.nav-link-wrapper a:hover{
+    color: white;
+}
+.bottom{
+    display: block;
+    margin-left: 500px;
+    margin-top: 50px;
+    display: flex;
+}
+.nav-wrapper > .bottom >div{
+    margin-right: 50px;
+    font-size: 1.1em;
+}
+.rectangle{
+    position: relative;
+    top: 37px;
+    left: 31.5%;
+    height: 30px;
+    width: 400px;
+    background-color: #8cd3ff;
+}
+.active-nav-link{
+    border-bottom: 1px solid white;
+}
+.active-nav-link a{
+    color: white !important;
+}
